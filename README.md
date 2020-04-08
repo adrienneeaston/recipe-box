@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# recipe-box
+**Author:** 
+Adrienne Easton  
+**Version:** 0.1.0
 
-## Available Scripts
+### Description
+* A recipe search app, using the Edamam API.
+* Built using initial code from a basic React recipe app tutorial from [Dev Ed](https://www.youtube.com/watch?v=U9T6YkEDkMo), then edited and expanded for style preferences, better accessibility, and additional features. 
 
-In the project directory, you can run:
+### Problem Domain and Approach
+* App allows user to search for recipes. Goals for usability, accessibility, and expansion for additional features. 
 
-### `npm start`
+### Architecture
+* HTML
+* CSS
+* JavaScript
+* jquery
+* React
+* Edamam API
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Accessibility
+* Descriptive alt tags
+* Color contrast ratio for buttons 5.52:1
+* Color contrast ratio for recipes 21:1
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### User Stories
 
-### `npm test`
+#### Users
+* As a user I want a clean interface so that I understand what I need to do.
+* As a user I want easily navigate my pages so that I don't frustrated.
+* As a user I want to be able to maximally access the information with disabilities taken into account.
+* As a user I want to be able to search for recipes based on main ingreient.
+* As a user I want to be able to store my favorite recipes to access later.
+* As a user I want to be able to store uploaded pictures I have taken of favorite recipes from recipe books.
+* As a user I want to be able to store to favorites urls for for favorite recipes on websites.
+* As a user I want to be able to sort based on type of meal (breakfast, lunch, dinner, etc).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Developers
+* As a developer I want clean easily readable code so that I can understand what's happening without depending on comments
+* As a developer I want a well organized clear file tree so that I can easily navigate and connect all of the code.
+* As a developer I want to make a functional intuitive front end.
+* As a developer I want to write code that maximizes accessibility.
+* As a developer I want to enable teh user to save favorite recipes from their api search or from rceipes they have found in books on websites.
+* As a developer I want a well structured database so that I can easily retrieve and update the data within it.
 
-### `npm run build`
+### Scope
+#### MVP
+* Front end: 
+Search form for recipes
+* API
+Edmamam
+* Server
+Send what the front end needs 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Stretch Goals
+* Database for storing favorites from the api  
+* A way to store favorites that are not from the api
+  * photos
+  * links to websites
+* Sorting by meal type (breakfast, lunch, dinner, etc.)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Set up instructions
+* You will need API keys for Edamam in the .env as 
+REACT_APP_APP_ID  
+REACT_APP_APP_KEY
+* npm i to add dependancies.
+* start with 'npm start'.
