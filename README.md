@@ -3,14 +3,26 @@
 Adrienne Easton  
 **Version:** 0.1.0
 
-### Description
+## Description
 * A recipe search app, using the Edamam API.
-* Built using initial code from a basic React recipe app tutorial from [Dev Ed](https://www.youtube.com/watch?v=U9T6YkEDkMo), then edited and expanded for style preferences, better accessibility, and additional features. 
+* Expansion of initial code from a basic React recipe app tutorial from [Dev Ed](https://www.youtube.com/watch?v=U9T6YkEDkMo).
+* Added features for style preferences, better accessibility, and additional features. 
 
-### Problem Domain and Approach
-* App allows user to search for recipes. Goals for usability, accessibility, and expansion for additional features. 
+## New Features 
 
-### Architecture
+* Updated to a more user friendly style.
+* Adding features to maximize accessibility, as described in accessibility section below.
+* Database storage (in progress).
+* Ability to upload non-api recipes, such as text, photo, or url (in progress).
+
+## Accessibility
+
+* Descriptive alt tags
+* Color contrast ratio for buttons 5.52:1
+* Color contrast ratio for recipes 21:1
+
+## Architecture
+
 * HTML
 * CSS
 * JavaScript
@@ -18,14 +30,9 @@ Adrienne Easton
 * React
 * Edamam API
 
-### Accessibility
-* Descriptive alt tags
-* Color contrast ratio for buttons 5.52:1
-* Color contrast ratio for recipes 21:1
+## User Stories
 
-### User Stories
-
-#### Users
+### Users
 * As a user I want a clean interface so that I understand what I need to do.
 * As a user I want easily navigate my pages so that I don't frustrated.
 * As a user I want to be able to maximally access the information with disabilities taken into account.
@@ -35,7 +42,7 @@ Adrienne Easton
 * As a user I want to be able to store to favorites urls for for favorite recipes on websites.
 * As a user I want to be able to sort based on type of meal (breakfast, lunch, dinner, etc).
 
-#### Developers
+### Developers
 * As a developer I want clean easily readable code so that I can understand what's happening without depending on comments
 * As a developer I want a well organized clear file tree so that I can easily navigate and connect all of the code.
 * As a developer I want to make a functional intuitive front end.
@@ -43,8 +50,8 @@ Adrienne Easton
 * As a developer I want to enable teh user to save favorite recipes from their api search or from rceipes they have found in books on websites.
 * As a developer I want a well structured database so that I can easily retrieve and update the data within it.
 
-### Scope
-#### MVP
+## Scope
+### MVP
 * Front end: 
 Search form for recipes
 * API
@@ -52,16 +59,17 @@ Edmamam
 * Server
 Send what the front end needs 
 
-#### Stretch Goals
+### Stretch Goals
 * Database for storing favorites from the api  
 * A way to store favorites that are not from the api
   * photos
   * links to websites
+  * text
 * Sorting by meal type (breakfast, lunch, dinner, etc.)
 
-### Set up instructions
-* You will need API keys for Edamam in the .env as 
-REACT_APP_APP_ID  
-REACT_APP_APP_KEY
-* npm i to add dependancies.
-* start with 'npm start'.
+## Set up instructions
+* You will need API keys for Edamam in the .env as: 
+  * REACT_APP_APP_ID  
+  * REACT_APP_APP_KEY
+* `npm i` to add dependancies.
+* Start with `npm start`.
