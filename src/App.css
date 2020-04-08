@@ -12,15 +12,13 @@
 
 .search-bar{
   width: 50%;
-  /* border: none; */
   padding: 10px;
 }
 
 .search-button{
-  background: rgb(221, 57, 7);
-  /* border: none; */
+  background: #f83600;
   padding: 10px 20px;
-  color: white;
+  color: black;
 }
 
 .recipes{
